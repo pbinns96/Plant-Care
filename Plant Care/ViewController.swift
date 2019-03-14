@@ -25,14 +25,23 @@ class ViewController: UIViewController {
         //min sun: max sun: acceeptable sun range:
         var baseHydration = Int(0)
         //min hydration: max hydration: acceptable hydration range:
-       
-    }
+       }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+   /*let alert = UIAlertController (title:"ALERT" , message: "Hey \(theirName!)", preferredStyle: UIAlertController.Style.alert)
+    alert.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default, handler: nil))
+    present (alert, animated: true, completion: nil)*/
+    
+    /*var urlIntermediary = "http://www.google.com/search?q="
+    
+    @IBAction func searchButtonPressed(_ sender: Any) {
+        urlIntermediary += String(searchTermTextField.text ?? "search")
+        let myUrl = URL (string: urlIntermediary)
+        let searchView = SFSafariViewController(url: myUrl!)
+        present(searchView, animated: true)*/
 }
 
