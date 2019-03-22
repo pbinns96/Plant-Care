@@ -32,7 +32,21 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-   /*let alert = UIAlertController (title:"ALERT" , message: "Hey \(theirName!)", preferredStyle: UIAlertController.Style.alert)
+    @IBAction func waterButtonPressed(_ sender: Any) {
+    }
+    @IBAction func temperatureButtonPressed(_ sender: Any) {
+    }
+    @IBAction func heatButtonPressed(_ sender: Any) {
+    }
+    @IBAction func acButtonPressed(_ sender: Any) {
+    }
+    @IBAction func sunlightButtonPressed(_ sender: Any) {
+    }
+    @IBAction func shadeButtonPressed(_ sender: Any) {
+    }
+    @IBAction func sunButtonPressed(_ sender: Any) {
+    }
+    /*let alert = UIAlertController (title:"ALERT" , message: "Hey \(theirName!)", preferredStyle: UIAlertController.Style.alert)
     alert.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default, handler: nil))
     present (alert, animated: true, completion: nil)*/
     
@@ -43,5 +57,8 @@ class ViewController: UIViewController {
         let myUrl = URL (string: urlIntermediary)
         let searchView = SFSafariViewController(url: myUrl!)
         present(searchView, animated: true)*/
+}
+class ViewControllerTwo: ViewController {
+    
 }
 
