@@ -12,6 +12,7 @@
 		1C27218F22397F1800BCA5C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C27218D22397F1800BCA5C8 /* Main.storyboard */; };
 		1C27219122397F1900BCA5C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C27219022397F1900BCA5C8 /* Assets.xcassets */; };
 		1C27219422397F1900BCA5C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C27219222397F1900BCA5C8 /* LaunchScreen.storyboard */; };
+		1C4E29E6224D40E70039C6A9 /* waterSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C4E29E5224D40E70039C6A9 /* waterSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1C27219022397F1900BCA5C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C27219322397F1900BCA5C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C27219522397F1900BCA5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4E29E5224D40E70039C6A9 /* waterSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = waterSound.mp3; path = ../../waterSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			children = (
 				1C27218822397F1800BCA5C8 /* Plant Care */,
 				1C27218722397F1800BCA5C8 /* Products */,
+				1C4E29E2224D401F0039C6A9 /* Sounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +65,14 @@
 				1C27219522397F1900BCA5C8 /* Info.plist */,
 			);
 			path = "Plant Care";
+			sourceTree = "<group>";
+		};
+		1C4E29E2224D401F0039C6A9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1C4E29E5224D40E70039C6A9 /* waterSound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4E29E6224D40E70039C6A9 /* waterSound.mp3 in Resources */,
 				1C27219422397F1900BCA5C8 /* LaunchScreen.storyboard in Resources */,
 				1C27219122397F1900BCA5C8 /* Assets.xcassets in Resources */,
 				1C27218F22397F1800BCA5C8 /* Main.storyboard in Resources */,
